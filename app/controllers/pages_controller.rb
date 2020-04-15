@@ -3,7 +3,7 @@ class PagesController < ApplicationController
     
     def home
         #render plain: "Hello World"
-        
+        @name = 'Hugh'
     end
 
     def about

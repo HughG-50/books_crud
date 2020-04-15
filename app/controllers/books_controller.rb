@@ -31,7 +31,7 @@ class BooksController < ApplicationController
         title = params[:title]
         author = params[:author]
         new_book = {id: id, title: title, author: author}
-        @data.push(new_book)
+        push(new_book)
         render json: new_book
         # debug line
         puts "@data array looks like"

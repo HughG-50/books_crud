@@ -2,7 +2,12 @@ class PagesController < ApplicationController
     skip_before_action :verify_authenticity_token
     
     def home
-        render plain: "Hello World"
+        #render plain: "Hello World"
+        
+    end
+
+    def about
+
     end
 
     def sayhi
